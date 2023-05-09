@@ -135,7 +135,7 @@ def customer_summary_2():
         plt.bar(x,y4,width=w,label="Normal_customers",bottom=[y[a]+y1[a]+y2[a]+y3[a]for a in range (len(x))],color='yellow')
 
         plt.xlabel("Customers")
-        plt.ylabel("No_of_customers")
+        plt.ylabel("Branch")
         plt.legend(loc='lower right') 
         plt.show()
 
